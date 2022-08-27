@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css"> <!-- informa que esse documento HTML esta ussando uma folha de estilo esterna -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></link> <!--a folha de estilo do bootstrap-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--jquery-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--adiciona o js do bootstrap-->
+
+
+            <title> Cool Project </title>
+    </head>
+    <body>
+        <div id="container">
+
+            <section id="Games">
+
+                <h1> Random Things </h1>
+
+                <HR>
+
+                <div id="meucarrosel" class="carousel slide" data-ride="carousel"> 
+                    <!-- A classe carousel slide ajuda a adicionar uma transição CSS e um efeito de animação, o que faz 
+                    com que os itens se movam quando os botões próximo ou anterior são clicados. --> 
+
+                    <!-- O atributo data-ride = "carousel" diz ao Bootstrap para começar a animar o carrossel 
+                    imediatamente quando a página for carregada. -->
+                    <center>
+
+                   
+                        <div class="carousel-inner">
+
+                            <!-- class = "carousel-inner" significa que todo o conteúdo dos slides estará dentro desta div. -->
+                            <div class="item active">
+                                <!-- class item irá definir o conteúdo do slide e active significa que este slide será 
+                                mostrado primeiro quando a página for carregada. -->
+                                <img src="1TV.png"> 
+                                <h3> Tv </h3>
+                            </div>
+                        
+                      
+                            <div class="item">
+                                
+                                <img src="Lol.png">
+                                <h3> Pepper </h3>
+                            </div>
+                            
+                            <div class="item">
+                                <img src="stickman.png"> 
+                                <h3> Stickman </h3>
+                            </div>
+
+                            <div class="item">
+                                <img src="Placeholder1.png"> 
+                                <h3> Idk bro </h3>
+                            </div>
+
+                            <div class="item">
+                                <img src="Bloxy.png"> 
+                                <h3> Bloxy </h3>
+                            </div>
+
+                            <div class="item">
+                                <img src="Decoration.png"> 
+                                <h3> Gold Play Button </h3>
+                            </div>
+            
+            
+                        </div>
+
+                    </center>
+
+                    <a class="left carousel-control" href="#meucarrosel" data-slide="anterior"> 
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+
+                    <a class="right carousel-control" href="#meucarrosel" data-slide="proximo"> 
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    
+                </div>
+
+
+
+            </section>
+            <img src="Person.png">
+        </div>
+    </body>
+</html>
